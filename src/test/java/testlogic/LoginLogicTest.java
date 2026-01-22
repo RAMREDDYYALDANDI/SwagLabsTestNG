@@ -15,7 +15,7 @@ import BaseTest.Base;
 import LoginPOM.loginPOM;
 import Utils.JsonUtils;
 
-public class loginlogic extends Base{
+public class LoginLogicTest extends Base{
 	
 	
 	
