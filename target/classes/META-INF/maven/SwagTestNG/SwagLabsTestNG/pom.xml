@@ -24,7 +24,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.11.0</version>
-    <scope>test</scope>
+
 </dependency>
 <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
@@ -45,11 +45,7 @@
   <artifactId>extentreports</artifactId>
   <version>5.1.1</version>
 </dependency>
-  	<dependency>
-  		<groupId>Extent</groupId>
-  		<artifactId>Extentreports</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+  	
   </dependencies>
 
   <build>
