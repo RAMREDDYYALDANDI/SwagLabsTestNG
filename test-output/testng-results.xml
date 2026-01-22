@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-22T10:13:05 IST" name="Default suite" finished-at="2026-01-22T10:14:39 IST" duration-ms="93352">
+    <groups>
+    </groups>
+    <test started-at="2026-01-22T10:13:05 IST" name="Default test" finished-at="2026-01-22T10:14:39 IST" duration-ms="93352">
+      <class name="testlogic.loginlogic">
+        <test-method is-config="true" signature="defaultbrowser()[pri:0, instance:testlogic.loginlogic@6b2ea799]" started-at="2026-01-22T10:13:06 IST" name="defaultbrowser" finished-at="2026-01-22T10:13:22 IST" duration-ms="16175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultbrowser -->
+        <test-method signature="logintest(java.util.HashMap)[pri:0, instance:testlogic.loginlogic@6b2ea799]" started-at="2026-01-22T10:13:22 IST" name="logintest" data-provider="loginData" finished-at="2026-01-22T10:13:31 IST" duration-ms="8865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Pass@123, username=ramyaldandi@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="defaultbrowser()[pri:0, instance:testlogic.loginlogic@6b2ea799]" started-at="2026-01-22T10:13:31 IST" name="defaultbrowser" finished-at="2026-01-22T10:13:43 IST" duration-ms="12673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultbrowser -->
+        <test-method signature="logintest(java.util.HashMap)[pri:0, instance:testlogic.loginlogic@6b2ea799]" started-at="2026-01-22T10:13:43 IST" name="logintest" data-provider="loginData" finished-at="2026-01-22T10:13:52 IST" duration-ms="8598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Pass@123, username=vaishnavi@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="defaultbrowser()[pri:0, instance:testlogic.loginlogic@6b2ea799]" started-at="2026-01-22T10:13:52 IST" name="defaultbrowser" finished-at="2026-01-22T10:14:05 IST" duration-ms="12574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultbrowser -->
+        <test-method signature="validlogin(java.util.HashMap)[pri:0, instance:testlogic.loginlogic@6b2ea799]" started-at="2026-01-22T10:14:05 IST" name="validlogin" data-provider="validLogin" finished-at="2026-01-22T10:14:14 IST" duration-ms="8830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, username=standard_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlogin -->
+        <test-method is-config="true" signature="defaultbrowser()[pri:0, instance:testlogic.loginlogic@6b2ea799]" started-at="2026-01-22T10:14:14 IST" name="defaultbrowser" finished-at="2026-01-22T10:14:28 IST" duration-ms="14693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultbrowser -->
+        <test-method signature="validlogin(java.util.HashMap)[pri:0, instance:testlogic.loginlogic@6b2ea799]" started-at="2026-01-22T10:14:28 IST" name="validlogin" data-provider="validLogin" finished-at="2026-01-22T10:14:39 IST" duration-ms="10351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, username=visual_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlogin -->
+      </class> <!-- testlogic.loginlogic -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
